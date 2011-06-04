@@ -1,0 +1,35 @@
+<div class="wrapper">
+  <header>
+    <h1>Sinatra Starter App</h1>
+  </header>
+  
+  <aside id="dynamic">
+    <pre class="prettyprint">@time.strftime("%Y-%m-%d %I:%M%p") #=> <%= @time.strftime("%Y-%m-%d %I:%M%p") %></pre>
+  </aside>
+  
+  <section>
+    <h2>Great job!</h2>
+    <p>You've got the Sinatra App template up and running.
+      Here's a list of things you can do next to get this app off the ground:
+      <ul>
+        <li>Overwrite <span class="code">index.erb</span> and <span class="code">layout.erb</span> with your own content</li>
+        <li>Rename the <span class="code">app/</span> folder and <span class="code">app.rb</span> file to something more descriptive of your app</li>
+        <li>Delete this content by removing the <span class="code">public/blankslate/</span> folder</li>
+        <li>Start defining your url structure</li>
+      </ul>
+    </p>
+  </section>
+  
+  <footer>
+    <ul>
+      <li><a href="http://www.sinatrarb.com/">Sinatra</a></li>
+      <li><a href="http://sinatra-book.gittr.com/">The Sinatra Book</a></li>
+      <li><a href="https://github.com/rack/rack-contrib">Middlewares</a></li>
+    </ul>
+  </footer>
+</div>
+
+<aside id="disclaimer">
+  <p>Background image discovered at<a href="http://mihaioprea.wordpress.com/2007/11/12/blogscorpions/">http://mihaioprea.wordpress.com</a>(I haven't asked for permission yet :-$)</p>
+  <p>Copyright © <%= @time.strftime("%Y") %></p>
+</aside>

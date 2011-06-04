@@ -1,0 +1,10 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}/
+    %title New Sinatra App
+    %link{:href => "/blankslate/main.css", :rel => "stylesheet", :type => "text/css"}
+      %link{:href => "http://fonts.googleapis.com/css?family=Cherry+Cream+Soda", :rel => "stylesheet", :type => "text/css"}
+        %script{:src => "/blankslate/prettify.js", :type => "text/javascript"}
+  %body{:onload => "prettyPrint()"}
+    = yield

@@ -1,0 +1,45 @@
+.wrapper
+  %header
+    %h1 Sinatra Starter App
+  %aside#dynamic
+    %pre.prettyprint
+      @time.strftime("%Y-%m-%d %I:%M%p") #=> #{@time.strftime("%Y-%m-%d %I:%M%p")}
+  %section
+    %h2 Great job!
+    %p
+      You've got the Sinatra App template up and running.
+      Here's a list of things you can do next to get this app off the ground:
+      %ul
+        %li
+          Delete this blank slate content by removing the folder
+          %span.code public/blankslate/
+        %li
+          Overwrite
+          %span.code index.haml
+          and
+          %span.code layout.haml
+          with your own content
+        %li
+          Rename the
+          %span.code app/
+          folder and
+          %span.code app.rb
+          file to something more descriptive of your app
+        %li 
+          Start defining your url structure by creating routes in
+          %span.code app.rb
+  %footer
+    %ul
+      %li
+        %a{:href => "http://www.sinatrarb.com/"} Sinatra
+      %li
+        %a{:href => "http://sinatra-book.gittr.com/"} The Sinatra Book
+      %li
+        %a{:href => "https://github.com/rack/rack-contrib"} Middlewares
+%aside#disclaimer
+  %p
+    Background image discovered at
+    %a{:href => "http://mihaioprea.wordpress.com/2007/11/12/blogscorpions/"}> http://mihaioprea.wordpress.com
+    (I haven't asked for permission yet :-$)
+  %p
+    Copyright © #{@time.strftime("%Y")}
