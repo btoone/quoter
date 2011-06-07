@@ -1,0 +1,19 @@
+database: quoter
+host: localhost
+password: 
+port: 27107
+username:
+# development:
+#   database: quoter
+#   host: localhost
+#   password: 
+#   port: 27107
+#   username: 
+# 
+# heroku:
+#   # mongohq_url: mongodb://heroku:6da6skmzn3ymi9kqmnsixg@flame.mongohq.com:27107/app554007
+#   database: app554007
+#   host: flame.mongohq.com
+#   password: 6da6skmzn3ymi9kqmnsixg
+#   port: 27107
+#   username: heroku
